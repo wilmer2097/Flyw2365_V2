@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fly2w_365/screens/form_screen.dart';
 import 'package:fly2w_365/screens/home_screen.dart';
+import 'package:fly2w_365/screens/form_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
       home: HomeScreen(),
-      // initialRoute: "/",
+      // initialRoute: '/',
       // routes: {
-      //   "/": (context) => HomeScreen(),
-      //   "/form": (context) => FormScreen(),
+      //   '/': (context) => HomeScreen(),
+      //   '/form': (context) => FormScreen(),
       // },
     );
   }

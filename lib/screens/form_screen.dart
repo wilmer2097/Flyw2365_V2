@@ -447,7 +447,7 @@ class _FormScreenState extends State<FormScreen> {
                       children: [
                         Expanded(
                           child: _buildDateSelector("Fecha de partida", fechaPartida, true, () => _selectFechaPartida(context)),
-        
+
                         ),
                         SizedBox(width: 16),
                         Expanded(
